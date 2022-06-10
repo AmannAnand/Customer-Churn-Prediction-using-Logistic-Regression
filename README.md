@@ -1,5 +1,6 @@
 
 # Customer Churn Prediction
+<img src="https://user-images.githubusercontent.com/84275757/173112022-31911364-f595-41e0-acc0-cd8f4ec28de5.jpg" width="400" height="200" />
 
 This project was completed as a part of Analytics Vidhya's Certified AI & ML Blackbelt Plus Program.
 
@@ -10,7 +11,8 @@ This project was completed as a part of Analytics Vidhya's Certified AI & ML Bla
 
 •	Performed extensive Exploratory Data Analysis (EDA) to select the best features.
 
-•	Models were trained using logistic regression and evaluated using different evaluation metrics.
+•	Models were trained using logistic regression and evaluated using different evaluation metrics. The top_10_RFE model gave score of 
+AUC-ROC=0.8118, Recall=0.2253 and outperformed all three models.
 
 ## :small_blue_diamond: Motivation/Purpose
 
@@ -76,7 +78,7 @@ churn - Average balance of customer falls below minimum balance in the next quar
 What customer segments are more liekly to chrun balances in the next quarter by at least 50% considering current quarter?
 
 ## :small_blue_diamond: Hypothesis Generation
-
+Some of the hypotheses are listed below:
 
 ### Demographics
 •	Are females less likely to churn than males?
