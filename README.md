@@ -118,6 +118,13 @@ What customer segments are more liekly to chrun balances in the next quarter by 
 
 
 ## Technologies Used
+![Screenshot (151)](https://user-images.githubusercontent.com/84275757/173030213-f8e8a1d1-86d5-4782-abf1-928889fc6677.png)
+<img alt="numpy" src="https://user-images.githubusercontent.com/84275757/173030594-fba1e76a-d6c5-4928-ac77-4057b1028025.png" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/84275757/173031448-9e3e22df-53a6-480d-8a24-56c3b269a70a.png" width="250" height="200" />
+<img src="https://user-images.githubusercontent.com/84275757/173031755-5d73c113-a4ca-4119-a693-885972be603b.png" width="400" height="150" />
+<img src="https://user-images.githubusercontent.com/84275757/173031858-ebcd32fb-88d0-459a-8147-8fcec5b462d5.png" width="200" height="200" />
+<img src="https://user-images.githubusercontent.com/84275757/173031918-1584d7ce-f852-4c47-a3bb-391fadff9a6d.png" width="400" height="200" />
+
 
 ## Methodology
 
