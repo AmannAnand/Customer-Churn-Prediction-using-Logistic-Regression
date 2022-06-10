@@ -4,7 +4,7 @@
 This project was completed as a part of Analytics Vidhya's Certified AI & ML Blackbelt Plus Program.
 
 
-## Project Overview
+## :small_blue_diamond: Project Overview
 
 •	Utilized dataset which contained many features of customer demographics, transaction data, and bank branch data required for predicting customer churn.
 
@@ -12,7 +12,7 @@ This project was completed as a part of Analytics Vidhya's Certified AI & ML Bla
 
 •	Models were trained using logistic regression and evaluated using different evaluation metrics.
 
-## Motivation/Purpose
+## :small_blue_diamond: Motivation/Purpose
 
 •	Customer churn occurs whenever a customer stops taking the services of service providing company. It is a big issue for many businesses because acquiring new customers often costs more than retaining existing ones. 
 
@@ -22,7 +22,7 @@ This project was completed as a part of Analytics Vidhya's Certified AI & ML Bla
 
 •	Churn models are designed to detect early churn signals and identify customers who are more likely to leave voluntarily and transfer their businesses to a competitor.
 
-## Dataset Overview
+## :small_blue_diamond: Dataset Overview
 
 Dataset of a bank with 225,000 customers has been used, which is facing the problem of stagnating customer balances since the last 3 months.
 
@@ -71,11 +71,11 @@ previous_month_balance - Average Balance of previous month
 churn - Average balance of customer falls below minimum balance in the next quarter (1/0)
 
 
-## Problem Statement
+## :small_blue_diamond: Problem Statement
 
 What customer segments are more liekly to chrun balances in the next quarter by at least 50% considering current quarter?
 
-## Hypothesis Generation
+## :small_blue_diamond: Hypothesis Generation
 
 
 ### Demographics
@@ -117,7 +117,7 @@ What customer segments are more liekly to chrun balances in the next quarter by 
 •	Customers incurring a high rate of interest in house loans compared to competitor banks are more likely to churn?
 
 
-## Technologies Used
+## :gear: Technologies Used
 ![Screenshot (151)](https://user-images.githubusercontent.com/84275757/173030213-f8e8a1d1-86d5-4782-abf1-928889fc6677.png)
 <img alt="numpy" src="https://user-images.githubusercontent.com/84275757/173030594-fba1e76a-d6c5-4928-ac77-4057b1028025.png" width="200" height="200" />
 <img src="https://user-images.githubusercontent.com/84275757/173031448-9e3e22df-53a6-480d-8a24-56c3b269a70a.png" width="250" height="200" />
@@ -126,13 +126,13 @@ What customer segments are more liekly to chrun balances in the next quarter by 
 <img src="https://user-images.githubusercontent.com/84275757/173031918-1584d7ce-f852-4c47-a3bb-391fadff9a6d.png" width="300" height="200" />
 
 
-## Methodology
+## :small_blue_diamond: Methodology
 
-Note:- Please turn on Light theme in Github to see the below images properly (most captions and axes are not visible in dark theme).
+:bulb: Note:- Please turn on Light theme in Github to see the below images properly (most captions and axes are not visible in dark theme).
 
 <img src="https://user-images.githubusercontent.com/84275757/173101975-d54eb319-941e-46b4-9fe2-97f6c2a267b0.png" width="500" height="700" />
 
-## Exploratory Data Analysis (EDA)
+## :small_blue_diamond: Exploratory Data Analysis (EDA)
 Some snapshots from EDA 
 ### Univariate Analysis
 
@@ -151,7 +151,7 @@ Some snapshots from EDA
 
 Complete EDA in detail can be seen in [EDA Notebook](Customer_Churn_Prediction_EDA.ipynb)
 
-## Conclusions from EDA
+## :small_blue_diamond: Conclusions from EDA
 •	For debit values, we see that there is a significant difference in the distribution for churn and non churn and it might be turn out to be an important feature
 
 •	For all the balance features the lower values have much higher proportion of churning customers
@@ -161,7 +161,7 @@ Complete EDA in detail can be seen in [EDA Notebook](Customer_Churn_Prediction_E
 •	We see significant difference for different occupations and certainly would be interesting to use as a feature for prediction of churn.
 
 
-## Data Preproccessing
+## :small_blue_diamond: Data Preproccessing
 
 Done after EDA, to see any hidden patterns in raw data and avoid any bias.
 ### Missing values
@@ -178,14 +178,14 @@ There were a lot of outliers in the dataset especially when it comes to previous
 
 2. 	Standard Scaler
  
-## Model Building
+## :small_blue_diamond: Model Building
 
 Three separate models were built and trained using logistic regression.
 1.	Model with all features 
 2.	Model with baseline features
 3.	Model with top 10 features obtained from backward selection
 
-## Evaluation metrics
+## :small_blue_diamond: Evaluation metrics
 
 Since this is a binary classification problem, we could use the following 2 popular metrics:
 1.	Recall
@@ -198,7 +198,9 @@ Our main metric here would be Recall values, while AUC ROC Score would take care
 
 Cross Validation (5 Fold) has been also used to prevent overfitting.
 
-## Model Performance
+## :small_blue_diamond: Model Performance
+
+The complete implementatiton of all models using logistic regression can be seen at [Customer Churn Prediction using Logistic Regression notebook](Customer_Churn_Prediction_Logistic_Regression.ipynb)
 
 The all features model gave best score of 
 AUC-ROC=0.8058, Recall=0.2405
