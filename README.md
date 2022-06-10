@@ -128,6 +128,8 @@ What customer segments are more liekly to chrun balances in the next quarter by 
 
 ## Methodology
 
+Note:- Please turn on Light theme in Github to see the below images properly (most captions and axes are not visible in dark theme).
+
 <img src="https://user-images.githubusercontent.com/84275757/173101975-d54eb319-941e-46b4-9fe2-97f6c2a267b0.png" width="500" height="700" />
 
 ## Exploratory Data Analysis (EDA)
@@ -147,7 +149,7 @@ Some snapshots from EDA
 <img src="https://user-images.githubusercontent.com/84275757/173104598-4b09f363-39b6-4b28-9c6c-3f73eb6bf16f.png" width="700" height="400" />
 <img src="https://user-images.githubusercontent.com/84275757/173104277-357b86c0-d23e-4128-95c2-4be34870b8b2.png" width="600" height="400" />
 
-Complete EDA in detail can be seen at 
+Complete EDA in detail can be seen in [EDA Notebook](Customer_Churn_Prediction_EDA.ipynb)
 
 ## Conclusions from EDA
 •	For debit values, we see that there is a significant difference in the distribution for churn and non churn and it might be turn out to be an important feature
@@ -207,7 +209,7 @@ AUC-ROC=0.7822, Recall=0.1236
 The top 10 RFE model gave best score of 
 AUC-ROC=0.8118, Recall=0.2253
 
-<img src="https://user-images.githubusercontent.com/84275757/173106395-4657cc7f-2da3-4055-b2aa-a760882e60a5.png" width="500" height="400" />
+<img src="https://user-images.githubusercontent.com/84275757/173106395-4657cc7f-2da3-4055-b2aa-a760882e60a5.png" width="500" height="300" />
 
 
 Thus, RFE model performed the best among the three models.
