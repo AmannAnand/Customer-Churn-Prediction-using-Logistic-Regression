@@ -151,7 +151,7 @@ Some snapshots from EDA
 <img src="https://user-images.githubusercontent.com/84275757/173104598-4b09f363-39b6-4b28-9c6c-3f73eb6bf16f.png" width="700" height="400" />
 <img src="https://user-images.githubusercontent.com/84275757/173104277-357b86c0-d23e-4128-95c2-4be34870b8b2.png" width="600" height="400" />
 
-Complete EDA in detail can be seen in [EDA Notebook](Customer_Churn_Prediction_EDA.ipynb)
+Complete EDA in detail can be seen in [EDA Notebook.](Customer_Churn_Prediction_EDA.ipynb)
 
 ## :small_blue_diamond: Conclusions from EDA
 •	For debit values, we see that there is a significant difference in the distribution for churn and non churn and it might be turn out to be an important feature
@@ -202,7 +202,7 @@ Cross Validation (5 Fold) has been also used to prevent overfitting.
 
 ## :small_blue_diamond: Model Performance
 
-The complete implementatiton of all models using logistic regression can be seen at [Customer Churn Prediction using Logistic Regression notebook](Customer_Churn_Prediction_Logistic_Regression.ipynb)
+The complete implementation of all models using logistic regression can be seen at [Customer Churn Prediction using Logistic Regression notebook.](Customer_Churn_Prediction_Logistic_Regression.ipynb)
 
 The all features model gave best score of 
 AUC-ROC=0.8058, Recall=0.2405
