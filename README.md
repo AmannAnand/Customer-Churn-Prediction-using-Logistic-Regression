@@ -121,20 +121,31 @@ What customer segments are more liekly to chrun balances in the next quarter by 
 ![Screenshot (151)](https://user-images.githubusercontent.com/84275757/173030213-f8e8a1d1-86d5-4782-abf1-928889fc6677.png)
 <img alt="numpy" src="https://user-images.githubusercontent.com/84275757/173030594-fba1e76a-d6c5-4928-ac77-4057b1028025.png" width="200" height="200" />
 <img src="https://user-images.githubusercontent.com/84275757/173031448-9e3e22df-53a6-480d-8a24-56c3b269a70a.png" width="250" height="200" />
-<img src="https://user-images.githubusercontent.com/84275757/173031755-5d73c113-a4ca-4119-a693-885972be603b.png" width="400" height="150" />
+<img src="https://user-images.githubusercontent.com/84275757/173031755-5d73c113-a4ca-4119-a693-885972be603b.png" width="350" height="150" />
 <img src="https://user-images.githubusercontent.com/84275757/173031858-ebcd32fb-88d0-459a-8147-8fcec5b462d5.png" width="200" height="200" />
-<img src="https://user-images.githubusercontent.com/84275757/173031918-1584d7ce-f852-4c47-a3bb-391fadff9a6d.png" width="400" height="200" />
+<img src="https://user-images.githubusercontent.com/84275757/173031918-1584d7ce-f852-4c47-a3bb-391fadff9a6d.png" width="300" height="200" />
 
 
 ## Methodology
 
-pic
+<img src="https://user-images.githubusercontent.com/84275757/173101975-d54eb319-941e-46b4-9fe2-97f6c2a267b0.png" width="500" height="700" />
 
 ## Exploratory Data Analysis (EDA)
 Some snapshots from EDA 
 ### Univariate Analysis
+
+<img src="https://user-images.githubusercontent.com/84275757/173103836-eba4293a-7896-462f-aab2-586866534852.png" width="1000" height="300" />
+<img src="https://user-images.githubusercontent.com/84275757/173103990-251cfdba-89d7-45ef-a07a-447e99425ea2.png" width="600" height="400" />
+
 ### Bivariate Analysis
+
+<img src="https://user-images.githubusercontent.com/84275757/173104066-ca35dea8-7a66-4d96-ab52-dcc2373b0497.png" width="1000" height="300" />
+<img src="https://user-images.githubusercontent.com/84275757/173104117-b84bfce8-c85f-4d26-abd3-21c7bf2e086b.png" width="600" height="400" />
+
 ### Multivariate Analysis
+
+<img src="https://user-images.githubusercontent.com/84275757/173104598-4b09f363-39b6-4b28-9c6c-3f73eb6bf16f.png" width="700" height="400" />
+<img src="https://user-images.githubusercontent.com/84275757/173104277-357b86c0-d23e-4128-95c2-4be34870b8b2.png" width="600" height="400" />
 
 Complete EDA in detail can be seen at 
 
@@ -183,7 +194,7 @@ Now, we are looking at the recall value here because a customer falsely marked a
 The ROC AUC is the area under the curve when plotting the (normalized) true positive rate (x-axis) and the false positive rate (y-axis).
 Our main metric here would be Recall values, while AUC ROC Score would take care of how well predicted probabilites are able to differentiate between the 2 classes.
 
-Cross Validation has been also used to prevent overfitting.
+Cross Validation (5 Fold) has been also used to prevent overfitting.
 
 ## Model Performance
 
@@ -196,7 +207,8 @@ AUC-ROC=0.7822, Recall=0.1236
 The top 10 RFE model gave best score of 
 AUC-ROC=0.8118, Recall=0.2253
 
-pic 
+<img src="https://user-images.githubusercontent.com/84275757/173106395-4657cc7f-2da3-4055-b2aa-a760882e60a5.png" width="500" height="400" />
+
 
 Thus, RFE model performed the best among the three models.
 
