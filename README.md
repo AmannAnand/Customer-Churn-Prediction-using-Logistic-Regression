@@ -185,7 +185,7 @@ There were a lot of outliers in the dataset especially when it comes to previous
 Three separate models were built and trained using logistic regression.
 1.	Model with all features 
 2.	Model with baseline features
-3.	Model with top 10 features obtained from reverse feature selection
+3.	Model with top 10 features obtained from reverse feature elimination (RFE)
 
 ## :small_blue_diamond: Evaluation metrics
 
@@ -210,7 +210,7 @@ AUC-ROC=0.8058, Recall=0.2405
 The baseline model gave best score of
 AUC-ROC=0.7822, Recall=0.1236
 
-The top 10 RFE model gave best score of 
+The top_10_RFE model gave best score of 
 AUC-ROC=0.8118, Recall=0.2253
 
 <img src="https://user-images.githubusercontent.com/84275757/173106395-4657cc7f-2da3-4055-b2aa-a760882e60a5.png" width="500" height="300" />
