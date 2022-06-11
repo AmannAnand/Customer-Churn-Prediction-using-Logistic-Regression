@@ -11,7 +11,7 @@ This project was completed as a part of Analytics Vidhya's Certified AI & ML Bla
 
 •	Performed extensive Exploratory Data Analysis (EDA) to select the best features.
 
-•	Models were trained using logistic regression and evaluated using different evaluation metrics. The top_10_RFE model gave score of 
+•	Models were trained using logistic regression and evaluated using different evaluation metrics. The rfe_top_10 model gave score of 
 AUC-ROC=0.8118, Recall=0.2253 and outperformed all three models.
 
 ## :small_blue_diamond: Motivation/Purpose
@@ -75,7 +75,7 @@ churn - Average balance of customer falls below minimum balance in the next quar
 
 ## :small_blue_diamond: Problem Statement
 
-What customer segments are more liekly to chrun balances in the next quarter by at least 50% considering current quarter?
+What customer segments are more liekly to churn balances in the next quarter by at least 50% considering current quarter?
 
 ## :small_blue_diamond: Hypothesis Generation
 Some of the hypotheses are listed below:
@@ -210,13 +210,13 @@ AUC-ROC=0.8058, Recall=0.2405
 The baseline model gave best score of
 AUC-ROC=0.7822, Recall=0.1236
 
-The top_10_RFE model gave best score of 
+The rfe_top_10 model gave best score of 
 AUC-ROC=0.8118, Recall=0.2253
 
 <img src="https://user-images.githubusercontent.com/84275757/173106395-4657cc7f-2da3-4055-b2aa-a760882e60a5.png" width="500" height="300" />
 
 
-Thus, RFE model performed the best among the three models.
+Thus, rfe_top_10 model performed the best among all the three models.
 
 
 
