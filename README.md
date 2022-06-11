@@ -185,7 +185,7 @@ There were a lot of outliers in the dataset especially when it comes to previous
 Three separate models were built and trained using logistic regression.
 1.	Model with all features 
 2.	Model with baseline features
-3.	Model with top 10 features obtained from backward selection
+3.	Model with top 10 features obtained from reverse feature selection
 
 ## :small_blue_diamond: Evaluation metrics
 
