@@ -2,7 +2,7 @@
 # Customer Churn Prediction
 <img src="https://user-images.githubusercontent.com/84275757/173112022-31911364-f595-41e0-acc0-cd8f4ec28de5.jpg" width="400" height="200" />
 
-This project was completed as a part of Analytics Vidhya's Certified AI & ML Blackbelt Plus Program.
+
 
 
 ## :small_blue_diamond: Project Overview
